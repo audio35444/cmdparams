@@ -1,0 +1,28 @@
+{
+  "name": "cmdparams",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "bin": {
+    "programasemma": "bin/server.js"
+  },
+  "preferGlobal": "true",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-fs": "^1.2.0",
+    "co-prompt": "^1.0.0",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "firebase": "^4.6.2",
+    "fs": "0.0.1-security",
+    "prompt": "^1.0.0",
+    "rsvp": "^4.7.0",
+    "youtube-dl": "^1.11.1"
+  }
+}
